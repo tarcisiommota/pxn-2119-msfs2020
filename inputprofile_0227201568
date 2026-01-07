@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Version Num="2831"/>
+<FriendlyName PlatformAvailability="1">PXN-2119-CESSNA-152</FriendlyName>
+<Device DeviceName="PXN-F19" GUID="{44CB0AC0-EBC4-11F0-8002-444553540000}" ProductID="2119" CompositeID="0">
+	<Axes>
+		<Axis AxisName="X" AxisSensitivy="-39" AxisSensitivyMinus="-39" AxisNeutral="0" AxisDeadZone="31" AxisOutDeadZone="0" AxisResponseRate="-1"/>
+		<Axis AxisName="Y" AxisSensitivy="-39" AxisSensitivyMinus="-39" AxisNeutral="0" AxisDeadZone="31" AxisOutDeadZone="0" AxisResponseRate="-1"/>
+		<Axis AxisName="Z" AxisSensitivy="0" AxisSensitivyMinus="0" AxisNeutral="0" AxisDeadZone="0" AxisOutDeadZone="0" AxisResponseRate="-1"/>
+		<Axis AxisName="rX" AxisSensitivy="0" AxisSensitivyMinus="0" AxisNeutral="0" AxisDeadZone="0" AxisOutDeadZone="0" AxisResponseRate="-1"/>
+		<Axis AxisName="rY" AxisSensitivy="0" AxisSensitivyMinus="0" AxisNeutral="0" AxisDeadZone="0" AxisOutDeadZone="0" AxisResponseRate="-1"/>
+		<Axis AxisName="rZ" AxisSensitivy="0" AxisSensitivyMinus="0" AxisNeutral="0" AxisDeadZone="4" AxisOutDeadZone="0" AxisResponseRate="-1"/>
+		<Axis AxisName="SliderX" AxisSensitivy="0" AxisSensitivyMinus="0" AxisNeutral="0" AxisDeadZone="0" AxisOutDeadZone="0" AxisResponseRate="-1"/>
+	</Axes>
+	<Context ContextName="COCKPIT_GLOBAL_CAMERA">
+		<Action ActionName="KEY_COCKPIT_LOOK_DOWN" Flag="1">
+			<Primary>
+				<KEY Information="Joystick Pov Para baixo">258</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_COCKPIT_LOOK_LEFT" Flag="1">
+			<Primary>
+				<KEY Information="JoystickPov Esquerdo">259</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_COCKPIT_LOOK_RIGHT" Flag="1">
+			<Primary>
+				<KEY Information="Joystick Pov Direito">257</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_COCKPIT_LOOK_UP" Flag="1">
+			<Primary>
+				<KEY Information="Joystick Pov Para cima">256</KEY>
+			</Primary>
+		</Action>
+	</Context>
+	<Context ContextName="EXTERNAL_CAMERA">
+		<Action ActionName="KEY_CHASE_LOOK_DOWN" Flag="1">
+			<Primary>
+				<KEY Information="Joystick Pov Para baixo">258</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_CHASE_LOOK_DOWNLEFT" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Pov Para cima_Direito">263</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_CHASE_LOOK_DOWNRIGHT" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Pov Para baixo_Direito">262</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_CHASE_LOOK_LEFT" Flag="1">
+			<Primary>
+				<KEY Information="JoystickPov Esquerdo">259</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_CHASE_LOOK_RIGHT" Flag="1">
+			<Primary>
+				<KEY Information="Joystick Pov Direito">257</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_CHASE_LOOK_UP" Flag="1">
+			<Primary>
+				<KEY Information="Joystick Pov Para cima">256</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_CHASE_LOOK_UPLEFT" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Pov Para cima_Esquerdo">260</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_CHASE_LOOK_UPRIGHT" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Pov Para baixo_Esquerdo">261</KEY>
+			</Primary>
+		</Action>
+	</Context>
+	<Context ContextName="INGAME_UI">
+		<Action ActionName="KEY_SHOW_VFRMAP" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 7">6</KEY>
+			</Primary>
+		</Action>
+	</Context>
+	<Context ContextName="MODES">
+		<Action ActionName="KEY_VIEW_MODE" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 8">7</KEY>
+			</Primary>
+		</Action>
+	</Context>
+	<Context ContextName="PLANE">
+		<Action ActionName="KEY_AILERON_TRIM_LEFT" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 5">4</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_AILERON_TRIM_RIGHT" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 6">5</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_AXIS_FLAPS_SET" Flag="132">
+			<Primary>
+				<KEY Information="Joystick Cursor X ">514</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_AXIS_MIXTURE_SET" Flag="4">
+			<Primary>
+				<KEY Information="Joystick Eixo D Y ">786</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_AXIS_RUDDER_SET" Flag="4">
+			<Primary>
+				<KEY Information="Joystick Eixo D Z ">802</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_BRAKES" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 1">0</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_ELEV_TRIM_DN" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 3">2</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_ELEV_TRIM_UP" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 4">3</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_LANDING_LIGHTS_TOGGLE" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 12">11</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_PARKING_BRAKES" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 2">1</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_THROTTLE_AXIS_SET_EX1" Flag="4">
+			<Primary>
+				<KEY Information="Joystick Eixo E Z ">1058</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_TOGGLE_CABIN_LIGHTS" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 9">8</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_TOGGLE_TAXI_LIGHTS" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 11">10</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_TOGGLE_WING_LIGHTS" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 10">9</KEY>
+			</Primary>
+		</Action>
+	</Context>
+	<Context ContextName="SURFACES">
+		<Action ActionName="KEY_AXIS_AILERONS_SET" Flag="4">
+			<Primary>
+				<KEY Information="Joystick Eixo E X ">1026</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_AXIS_ELEVATOR_SET" Flag="4">
+			<Primary>
+				<KEY Information="Joystick Eixo E Y ">1042</KEY>
+			</Primary>
+		</Action>
+	</Context>
+	<Context ContextName="THROTTLE">
+		<Action ActionName="KEY_THROTTLE_DECR" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 15">14</KEY>
+			</Primary>
+		</Action>
+		<Action ActionName="KEY_THROTTLE_INCR" Flag="2">
+			<Primary>
+				<KEY Information="Joystick Botão 16">15</KEY>
+			</Primary>
+		</Action>
+	</Context>
+</Device>
+
